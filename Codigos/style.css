@@ -20,31 +20,50 @@ marquee{
     color: var(--corpadrão);
     font-size: 28px;}
 
-nav{
-    background-color: black;
-    padding: 10px;}
-
 img{ 
     margin: auto;
     width: 100px;
     height: 40px;}
+
+nav{
+    background-color: black;
+    padding: 20px;}
+
+ul{
+    display: flex;
+    justify-content: center;}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li > a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgb(235, 164, 23);
+    margin: auto;
+    display: block;}
+
+li > a:hover::after{
+    width: 100%;
+    transition: 0.10s;
+    margin-top: 5px;}    
+
+li > a:hover{
+    color:rgb(235, 164, 23);}
 
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--coranuncio); 
     font-weight: bold;}  
-
-nav > a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: var(--corpadrão);
-    padding: 10px;}
-
-nav > a:hover{
-    color: rgb(50, 47, 47);
-    background-color:white;
-    border-radius: 4px;}
 
 #logo{
     height: 100px;
