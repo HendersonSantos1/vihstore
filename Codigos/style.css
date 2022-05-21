@@ -138,8 +138,8 @@ div.teste{
     background-color: var(--corpadrão);
     border: 2px solid black;
     text-align: center;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin-left: 50px;
     margin-top: 20px;}
 
@@ -147,8 +147,8 @@ div:hover{
     border-color: var(--bordacor);}
 
 .produtos{
-    height: 100px;
-    width: 100px;}
+    height: 150px;
+    width: 150px;}
 
 div > p{
     display: none;}
@@ -161,7 +161,7 @@ div:hover > p{
     color: rgb(0, 0, 0);
     font-weight: bolder;
     height: 18px;
-    width: 152px;
+    width: 202px;
     margin-left: -3px;
     font-size: 13px;}
 
