@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 Nav{
@@ -80,5 +81,35 @@ footer{
     background-color: rgb(17, 16, 16);
     margin-top: 50px;
     color: white;
-    height: 150px;
+    display: flex;
+min-height: 250px;}
+
+.caixas{
+    min-height: 150px;
+    width: 320px;
+    padding: 20px;}
+
+.caixas:nth-child(4){
+    width: 400px;
 }
+
+.caixas > ul > li{
+    margin: 10px 0px;
+}
+
+.caixas > ul > li > p:hover{
+    color: bisque;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caixas > ul > li > h2{
+    color: burlywood;}
+
+.caixas > ul > li > h3{
+    text-align: justify;
+    }
+
+
+
+
