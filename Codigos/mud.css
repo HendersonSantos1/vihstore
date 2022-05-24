@@ -13,7 +13,6 @@ header{
     padding: 10px;
     box-shadow:  0px 5px 20px black;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .menu{
@@ -30,16 +29,25 @@ header{
 }
 
 .logo{
-    height: 45px;
-    width: 45px;
-    background-color: bisque;
+    height: 85px;
+    width: 85px;
     border-radius: 5px;
 }
 
+img{height: 100%;
+    width: 100%;
+margin-left: 10px;}
+
+.mat{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+}
 #principal{
     background-color: bisque;
     margin-top: 60px;
-    height: 300px;
+    height: 400px;
     width: 100%;
     border: 3px solid rgb(255, 255, 255);
     max-width: 1200px;
@@ -66,6 +74,12 @@ header{
     max-width: 1200px;
     margin: 0 auto;}
 
+h3{
+    text-align: justify;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
 main{
     max-width: 900px;
     min-width: 320px;
@@ -81,18 +95,7 @@ h1{
     margin-top: 80px;}
 
 .as1{
-    background-color: rgb(7, 7, 126);
-    border: 2px solid black;
-    margin-top: 10px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    color: white;
-    margin-left: 10px;
-    margin-top: 20px;}
-
-.as2{
-    background-color: rgb(126, 126, 220);
+    background-color: rgb(4, 4, 34);
     border: 2px solid black;
     margin-top: 10px;
     display: inline-block;
@@ -107,7 +110,8 @@ footer{
     margin-top: 50px;
     color: white;
     display: flex;
-    min-height: 250px;}
+    min-height: 250px;
+    padding: 10px;}
 
 .caixas{
     min-height: 150px;
@@ -141,6 +145,6 @@ footer{
     width: 100%;}
 .caixas > ul > li > h3{
     text-align: center;
-margin-right: 30px;}
+    margin-right: 30px;}
 }
 
