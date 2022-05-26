@@ -43,19 +43,17 @@ img{height: 100%;
 margin-left: 10px;}
 
 .mat{
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 80%;
-    height: 80%;
-}
+    width: 100%; }
+    
 #principal{
     background-color: bisque;
     margin-top: 60px;
-    height: 400px;
+    height: 300px;
     width: 100%;
     border: 3px solid rgb(255, 255, 255);
     max-width: 1200px;
     margin: 0 auto;
+    border-radius: 10px;
  }
 
 #op1{
@@ -67,7 +65,7 @@ margin-left: 10px;}
     border: 3px solid rgb(255, 255, 255);
     max-width: 1200px;
     margin: 0 auto;
-    }
+    border-radius: 10px;}
 
 #op2{
     background-color: rgb(192, 71, 71);
@@ -76,7 +74,8 @@ margin-left: 10px;}
     width: 100%;
     border: 3px solid rgb(255, 255, 255);
     max-width: 1200px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    border-radius: 10px;}
 
 h3{
     text-align: justify;
@@ -98,20 +97,25 @@ main{
 h1{
     margin-top: 80px;}
 
-.as1 > a{
+a{
     color: white;
 }
 
 .as1{
-    background-color: rgb(4, 4, 34);
-    border: 2px solid black;
-    margin-top: 10px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;}
+
+.as1 > div > p{
     color: white;
-    margin-left: 10px;
-    margin-top: 20px;}
+}
+
+.as1 > div{
+    flex: 1 1 200px;
+    background-color: rgb(3, 3, 40);
+    height: 200px;
+    margin: 10px;}
 
 footer{
     background-color: rgb(17, 16, 16);
