@@ -111,6 +111,10 @@ a{
     height: 300px;
     margin: 10px;}
 
+.as1 > h2{
+    display: block;
+}
+
 footer{
     background: rgb(17, 16, 16);
     color: white;
@@ -142,6 +146,77 @@ footer.caixas:nth-child(4){
 
 .caixas > ul > li > h3{
     text-align: justify;}
+
+    section > ul{
+        position: relative;
+        transform: skewY(-10deg);
+        margin-left: 35%;  
+        margin-bottom: 120px; 
+        margin-top: 60px;
+    }
+    
+    section > ul > li{
+        position: relative;
+        list-style: none;
+        width: 200px;
+        background-color: rgb(50, 56, 56);
+        padding: 15px;
+        z-index: var(--i);
+        transition: 0.5s;
+    }
+    
+    section > ul > li::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -40px;
+        width: 40px;
+        height: 100%;
+        background-color: rgb(50, 56, 56);
+        transform-origin: right;
+        transform: skewY(45deg);
+        transition: 0.5s;
+    }
+    
+    section > ul > li::after{
+        content: "";
+        position: absolute;
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(50, 56, 56);
+        transform-origin: bottom;
+        transform: skewX(45deg);
+        transition: 0.5s;
+    }
+    
+    section > ul > li:hover{
+        background-color: rgb(251, 125, 57);
+        transform: translateX(-50px);
+        cursor: pointer;
+    }
+    
+    section > ul > li:hover::before{
+        background-color: rgb(251, 125, 57);
+    }
+    
+    section > ul > li:hover::after{
+        background-color: rgb(251, 125, 57);
+    }
+    
+    section > ul > li > p{
+        color: rgb(113, 108, 108);
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+    }
+    
+    section > ul > li:hover > p{
+        color: white;
+    }
+    
 
 @media(max-width: 950px){
 footer{
