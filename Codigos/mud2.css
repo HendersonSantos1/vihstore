@@ -142,7 +142,7 @@ section > ul > li:hover > p{
 
 .as1 > div{
     flex: 1 1 250px;
-    background-color: rgb(3, 3, 40);
+    background-color: rgb(2, 2, 24);
     height: 300px;
     margin: 10px;
     margin-bottom: 50px;}
@@ -163,7 +163,8 @@ section > ul > li:hover > p{
 
 .as2 > div > p{
     color: white;
-margin-left: 10px;}
+    margin-left: 10px;
+    margin-top: 10px;}
 
 .as2 > div > a{
     color: white;
@@ -172,7 +173,7 @@ margin-left: 10px;}
 
 .as2 > div{
     flex: 1 1 350px;
-    background-color: rgb(3, 3, 40);
+    background-color: rgb(2, 2, 24);
     height: 350px;
     margin: 5px;}
 
@@ -189,7 +190,25 @@ margin-left: 10px;}
     text-align: justify;
     padding: 10px;
     font-size: 20px;
+    margin-top: 3px;}
+
+.as2 > div > img{
+    height: 55%;
+    width: 45%;
+    border-radius: 50%;
+    margin-top: 10px;
+border: 2px solid burlywood;}
+
+.as2 > div > h4{
+    color: white;
+    text-align: center;
 }
+
+.as2 > div > h4:hover{
+    color: burlywood;
+    font-weight: bold;
+    cursor: pointer;}
+
 
 .item1{
     margin-bottom: 40px;
