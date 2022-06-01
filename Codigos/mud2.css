@@ -3,13 +3,10 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 body{
-    background-color: rgb(216, 211, 211);
-}
-
+    background-color: rgb(216, 211, 211);}
 
 header{
     display: flex;
@@ -21,8 +18,7 @@ header{
     align-items: center;}
 
 .menu{
-    display: flex;
-}
+    display: flex;}
 
 .menu > li > a{
     color: white;
@@ -39,17 +35,18 @@ header{
 .logo{
     height: 85px;
     width: 85px;
-    border-radius: 5px;
-}
+    border-radius: 5px;}
 
-img{height: 100%;
+img{
+    height: 100%;
     width: 100%;
-margin-left: 10px;}
+    margin-left: 10px;}
 
-h1{text-align: center;
-color: burlywood;
-font-size: 40px;
-margin-top: 15px;}
+h1{
+    text-align: center;
+    color: burlywood;
+    font-size: 40px;
+    margin-top: 15px;}
 
 main{
     max-width: 900px;
@@ -57,13 +54,17 @@ main{
     margin: auto;
     padding: 20px;}
 
+
+
+
+
+
 section > ul{
     position: relative;
     transform: skewY(-10deg);
     margin-left: 30%;  
     margin-bottom: 30px; 
-    margin-top: 70px;
-}
+    margin-top: 70px;}
 
 section > ul > li{
     position: relative;
@@ -101,27 +102,24 @@ section > ul > li::after{
 section > ul > li:hover{
     background-color: rgb(251, 125, 57);
     transform: translateX(-50px);
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 section > ul > li:hover::before{
-    background-color: rgb(251, 125, 57);
-}
+    background-color: rgb(251, 125, 57);}
 
 section > ul > li:hover::after{
-    background-color: rgb(251, 125, 57);
-}
+    background-color: rgb(251, 125, 57);}
 
 section > ul > li > p{
     color: rgb(113, 108, 108);
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    transition: 0.5s;
-}
+    transition: 0.5s;}
 
 section > ul > li:hover > p{
     color: white;}
+
 
 
 
@@ -155,6 +153,8 @@ section > ul > li:hover > p{
     font-family: Arial, Helvetica, sans-serif;}
 
 
+
+
 .as2{
     max-width: 1200px;
     margin: 0 auto;
@@ -168,8 +168,7 @@ section > ul > li:hover > p{
 
 .as2 > div > a{
     color: white;
-    margin-left: 10px;
-}
+    margin-left: 10px;}
 
 .as2 > div{
     flex: 1 1 350px;
@@ -182,8 +181,7 @@ section > ul > li:hover > p{
     width: 100%;
     text-align: justify;
     margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif;}
 
 .as2 > div > h3{
     color: white;
@@ -192,50 +190,37 @@ section > ul > li:hover > p{
     font-size: 20px;
     margin-top: 3px;}
 
+.as2 > div > h3 > a{
+    color: white;
+    text-decoration-line: underline;}
+
 .as2 > div > img{
-    height: 55%;
-    width: 45%;
+    height: 60%;
+    width: 55%;
     border-radius: 50%;
     margin-top: 10px;
-border: 2px solid burlywood;}
-
-.as2 > div > h4{
-    color: white;
-    text-align: center;
-}
-
-.as2 > div > h4:hover{
-    color: burlywood;
-    font-weight: bold;
-    cursor: pointer;}
-
+    border: 2px solid burlywood;}
 
 .item1{
     margin-bottom: 40px;
     padding: 15px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);}
 
-}
-
- h2{
+h2{
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
+    color: rgb(0, 0, 0);}
 
 .caixas > h2{
     color: burlywood;
-    margin-top: 10px;
-}
+    margin-top: 10px;}
 
 .item2{
     margin-bottom: 90px;
     padding: 15px;
     text-align: center;
-    color: white;
-
-}
+    color: white;}
 
 
 
@@ -274,7 +259,9 @@ footer.caixas:nth-child(4){
 
 .caixas > ul > li > h3{
     text-align: center;}
+    
 
+    
 @media(max-width: 950px){
 footer{
     flex-direction: column;}
