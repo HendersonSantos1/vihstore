@@ -140,7 +140,7 @@ section > ul > li:hover > p{
 
 .as1 > div{
     flex: 1 1 250px;
-    background-color: rgb(2, 2, 24);
+    background-color: #021227;
     height: 300px;
     margin: 10px;
     margin-bottom: 50px;
@@ -173,7 +173,7 @@ section > ul > li:hover > p{
 
 .as2 > div{
     flex: 1 1 350px;
-    background-color: rgb(2, 2, 24);
+    background-color: #021227;
     height: 350px;
     margin: 5px;
     border-radius: 10px;}
