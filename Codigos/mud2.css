@@ -44,8 +44,8 @@ img{
 
 h1{
     text-align: center;
-    color: burlywood;
-    font-size: 40px;
+    color: black;
+    font-size: 50px;
     margin-top: 15px;}
 
 main{
@@ -139,11 +139,11 @@ section > ul > li:hover > p{
 
 .as1 > div > p{
     color: white;
-    margin-left: 10px;}
+    margin-left: 10px;
+    margin-top: 6px;}
 
 .as1 > div > a{
-    color: white;
-    margin-left: 10px;}
+    color: white;}
 
 .as1 > div{
     flex: 1 1 260px;
@@ -161,11 +161,18 @@ section > ul > li:hover > p{
     font-family: Arial, Helvetica, sans-serif;}
 
 .as1 > div > h3{
-    color: burlywood;
+    color: rgb(241, 238, 208);
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 15px;
-    }
+    margin-bottom: 15px;}
+
+.as1 > div > img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: -3px;}
+
+
 
 
 
@@ -211,15 +218,38 @@ section > ul > li:hover > p{
     text-decoration-line: underline;}
 
 .as2 > div > img{
-    height: 50%;
-    width: 45%;
-    border-radius: 50%;
+    height: 65%;
+    width: 95%;
     margin-top: 10px;
-    border: 2px solid burlywood;}
+    border: 1px solid burlywood;}
 
 
 
+.materia > h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    text-align: justify;
+    color: rgb(71, 69, 69);}
 
+.materia > h3{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: justify;
+    color: rgb(71, 69, 69);
+    text-decoration: overline;
+    font-size: 16px;}
+
+.materia > img{
+    height: 300px;
+    width: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;}
+
+.materia > p{
+    margin-top: 15px;}
+    
 .item1{
     margin-top: 70px;
     margin-bottom: 40px;
