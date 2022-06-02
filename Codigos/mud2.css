@@ -316,4 +316,16 @@ footer{
     width: 100%;}
 .caixas > ul > li > h3{
     text-align: center;}
+.materia > img{
+    height: 150px;
+    width: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;}
+
+.as2 > div > img{
+    height: 60%;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid burlywood;}
 }
