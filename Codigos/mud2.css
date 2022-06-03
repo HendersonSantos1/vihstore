@@ -317,8 +317,8 @@ footer{
 .caixas > ul > li > h3{
     text-align: center;}
 .materia > img{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;}
@@ -328,4 +328,13 @@ footer{
     width: 90%;
     margin-top: 10px;
     border: 1px solid burlywood;}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;}
+
+.materia > h2{
+    font-size: 15px;
+}
 }
