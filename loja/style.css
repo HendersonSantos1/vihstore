@@ -16,27 +16,31 @@ marquee{
     font-weight: bold;
     font-size: 25px;}
 
-#anuncio{
-    display: flex;
-    background-color: black;
+.header2{
+    background: rgb(86, 84, 84);
     color: white;
-}
-
-#anuncio > ul > li{
     display: flex;
-    float: left;
-    margin-right: 250px;
-    margin-top: 10px;
-    margin-left: 30px;
-    text-align: center;
-}
+    height: 30px;}
+    
+.anuncio{
+    height: 30px;
+    width: 320px;
+    border-right: 4px solid white;
+    text-align: center;}
+    
+.header2.anuncio:nth-child(4){
+    width: 400px;}
+
 
 header{
     background-color: rgb(0, 0, 0);
     height: 350px;
     display: flex;
     justify-content: space-between;
-    padding: 10px;}
+    padding: 10px;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;}
 
 
 section > ul{
