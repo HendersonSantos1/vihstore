@@ -9,15 +9,20 @@ body{
     background-color:rgb(255, 208, 215);
 }
 
-marquee{
+#painel{
     background-color: rgb(255, 101, 183);
     height: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;}
+
+#painel > h1{
     color: white;
     font-weight: bold;
     font-size: 25px;}
 
 .header2{
-    background: rgb(86, 84, 84);
+    background: rgb(248, 192, 233);
     color: white;
     display: flex;
     height: 30px;}
@@ -33,7 +38,7 @@ marquee{
 
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 350px;
     display: flex;
     justify-content: space-between;
@@ -42,6 +47,18 @@ header{
     min-width: 320px;
     margin: auto;}
 
+.borboleta{
+    height: 50px;
+    width: 60px;
+    margin-right: 120px;
+    transition: 2s ease-out;
+    animation-iteration-count: infinite;}
+
+.borboleta:hover{
+    transform: translateY(-150px);
+    transition: 1.5s ease-out;
+    animation-iteration-count: infinite;
+}
 
 section > ul{
     position: relative;
